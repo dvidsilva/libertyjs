@@ -1,6 +1,6 @@
 {
   "name": "@dvidsilva/styles",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "SCSS variables and utilities",
   "keywords": [
     "scss"
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slingshothealth/sh-packages.git"
+    "url": "git+https://github.com/dvidsilva/libertyjs.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
