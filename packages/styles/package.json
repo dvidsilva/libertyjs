@@ -1,0 +1,32 @@
+{
+  "name": "@dvidsilva/styles",
+  "version": "0.0.0",
+  "description": "SCSS variables and utilities",
+  "keywords": [
+    "scss"
+  ],
+  "homepage": "http://github.com/dvidsilva/libertyjs",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "dvidsilva <contacto@dvidsilva.com>",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slingshothealth/sh-packages.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/dvidsilva/libertyjs/issues"
+  }
+}
