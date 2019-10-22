@@ -9,11 +9,11 @@
   "license": "ISC",
   "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "author": "dvidsilva <contacto@dvidsilva.com>",
   "publishConfig": {
@@ -24,7 +24,8 @@
     "url": "git+https://github.com/dvidsilva/libertyjs.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "mkdir -p dist && cp lib/* dist/ && cp src/index.js dist"
   },
   "bugs": {
     "url": "https://github.com/dvidsilva/libertyjs/issues"
